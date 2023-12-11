@@ -1,0 +1,41 @@
+:root {
+  --bg: #fff;
+  --system-color-dark-primary: #000;
+
+  /*border*/
+  --system-radius-sm: 5px;
+
+  /*transition*/
+  --trans-all-5: all 0.5s ease;
+  --trans-all-3: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "Kreon", cursive, Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.app {
+  min-height: 100dvh;
+}
